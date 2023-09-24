@@ -37,7 +37,7 @@ export default class NavigationBar extends React.Component {
         <EasyLink to={WelcomePage.PAGE_PATH}>
           <img id="home-icon" src="img/home-icon.png" alt="Home button" />
         </EasyLink>
-        <span id="nav-title">stephen karukas</span>
+        <span id="nav-title">kmodp</span>
       </div>
     )
   }

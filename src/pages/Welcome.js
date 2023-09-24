@@ -1,5 +1,4 @@
 import React from "react"
-import {Link} from "react-router-dom"
 import $ from "jquery"
 import "../style/welcome.css"
 
@@ -10,7 +9,9 @@ import AboutPage from "./About"
 const WELCOME_INTRO = (
     <div>
         <div>
-        I write music and play drums/percussion. I currently live in Seattle and work on <EasyLink to="https://cloud.google.com/vertex-ai/docs/generative-ai/embeddings/get-text-embeddings" id="google-team-link">large language models</EasyLink> at Google.
+        kmodp is a new experimental electronic music project drawing inspiration from microsound, glitch, and ambient music.
+
+        This project imagines the role of producer as archivist, performing the technical yet creative action of sculpting old field recordings into new musical sound, often through looping and splitting samples.
         </div>
     </div>
 )
@@ -39,7 +40,7 @@ export default class WelcomePage extends React.Component {
         }
     }
     render() {
-        document.title = "Stephen Karukas"
+        document.title = "kmodp"
         return (
             <div id="welcome-page">
                 <div className="welcome-content">

@@ -2,31 +2,14 @@ import React from "react";
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import $ from "jquery"
 
-//import HomePage from "./pages/Home"
-import WelcomePage from "./pages/Welcome"
-import EternalNothingness from "./pages/EternalNothingness"
-import AboutPage from "./pages/About"
-import NewsPage from "./pages/News"
-import ProjectsPage from "./pages/Project"
-import WorksPage from "./pages/Works"
-
 import NavigationBar from "./components/NavigationBar"
 import SocialContainer from "./components/SocialContainer"
 
 import './style/App.css'
-import CollagesPage from "./pages/Collages";
 
-const NAVIGATION_BAR_PAGES = [
-  ProjectsPage,
-  CollagesPage,
-  WorksPage
-]
+const NAVIGATION_BAR_PAGES = []
 
-const OTHER_ROUTABLE_PAGES = [
-  WelcomePage,
-  AboutPage,
-  NewsPage,
-]
+const OTHER_ROUTABLE_PAGES = [WelcomePage]
 
 window.removeExternalParams = function () {
   // remove params that come before hash (#), for example fbclid

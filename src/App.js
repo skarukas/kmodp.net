@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import $ from "jquery"
 
+import WelcomePage from "./pages/Welcome";
 import NavigationBar from "./components/NavigationBar"
 import SocialContainer from "./components/SocialContainer"
 
 import './style/App.css'
+import CityOfWaterPage from "./pages/CityOfWater";
+import CrimeeNo7Page from "./pages/CrimeeNo7";
+import EasyLink from "./components/EasyLink";
+import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
+import The404Page from "./pages/The404Page";
 
-const NAVIGATION_BAR_PAGES = []
+const NAVIGATION_BAR_PAGES = [WelcomePage, CityOfWaterPage, CrimeeNo7Page]
 
-const OTHER_ROUTABLE_PAGES = [WelcomePage]
+const OTHER_ROUTABLE_PAGES = []
 
 window.removeExternalParams = function () {
   // remove params that come before hash (#), for example fbclid
@@ -46,7 +52,7 @@ window.getURLParams = function () {
 class App extends React.Component {
 
   componentDidMount() {
-    $('#background').css('background-image', 'url("img/site-background.jpg")')
+    /*  $('#background').css('background-image', 'url("img/site-background.jpg")') */
     window.removeExternalParams()
   }
 
@@ -62,10 +68,14 @@ class App extends React.Component {
               [...NAVIGATION_BAR_PAGES, ...OTHER_ROUTABLE_PAGES].map(page => <Route exact path={page.PAGE_PATH} key={page.PAGE_NAME} component={page} />)
             }
             {/* Catches all other routes (404). */}
-            <Route component={EternalNothingness} />
+            <Route component={The404Page}/>
           </Switch>
         </div>
-        <div id="footer"></div>
+        <div id="footer">
+          <div className="web-credit invertible" >
+            design by <EasyLink to="https://www.skarukas.com">stephen karukas</EasyLink>
+          </div>
+        </div>
       </HashRouter>
     )
   }

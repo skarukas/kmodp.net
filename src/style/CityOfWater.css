@@ -1,0 +1,35 @@
+#city-of-water-page {
+  height: 100vh;
+  background-color: black;
+  z-index: -99;
+/*   text-transform: uppercase; */
+}
+
+#city-of-water-page a {
+  color: rgb(131, 117, 193);
+}
+
+.city-of-water-container {
+  padding: 10px;
+  z-index: 999;
+  display: flex;
+  flex-direction: row;
+  mix-blend-mode: difference;
+}
+
+.city-of-water-text {
+  color: white;
+ /*  opacity: 0.8; */
+}
+
+#city-of-water-cover {
+  height: 100px;
+  padding-right: 10px;
+}
+
+#hello {
+  color: white;
+  position: fixed;
+  font-weight: normal;
+  font-size: 100pt;
+}

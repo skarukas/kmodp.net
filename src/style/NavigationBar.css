@@ -1,7 +1,7 @@
 /* Make space for navbar */
-#content {
+/* #content {
     padding-top: 40px;
-}
+} */
 
 #navbar {
     z-index: 5;
@@ -12,7 +12,10 @@
     padding: 0px;
     width: 100%;
     opacity: 1;
-    background: rgb(102, 102, 102);
+    background: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-transform: lowercase;
+    font-weight: normal;
 }
 
 #navbar-pages {
@@ -21,16 +24,16 @@
 
 #navbar-pages a {
     cursor: pointer;
-    float: right;
+    float: left;
     padding: 10px;
-    color: #ffffff;
-    opacity: 0.6;
+}
+   /*  opacity: 0.6;
     transition: opacity 0.2s;
 }
 
 #navbar-pages a:hover {
     opacity: 1;
-}
+} */
 
 #navbar img {
     position: absolute;
@@ -55,13 +58,12 @@
     padding-left: 0px;
     width: 100%;
     text-align: center;
-    color: white;
+    font-weight: bold;
     z-index: -1;
 }
 
 .navbar-selected {
-    font-weight: bolder;
     opacity: 1 !important;
-    background: rgb(73, 73, 73);
-    border-bottom: 4px solid rgb(255, 64, 0) !important;
+    text-decoration: line-through;
+    /* border-bottom: 4px solid rgb(255, 255, 255) !important; */
 }

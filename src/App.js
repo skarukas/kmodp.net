@@ -18,9 +18,25 @@ const OTHER_ROUTABLE_PAGES = []
 window.removeExternalParams = function () {
   // remove params that come before hash (#), for example fbclid
   let splitUrl = window.location.href.split("#")
-  let rest = splitUrl[splitUrl.length - 1]
+  if (splitUrl.length === 1) {
+    return
+  }
+  let rest = splitUrl[1]
   let origin = window.location.origin
-  let url = origin + "#" + rest
+  let queryString = splitUrl[0].replace(origin, '')
+  let url;
+  console.log([splitUrl, rest, origin, queryString])
+  if (queryString.startsWith("/")) {
+    queryString = queryString.slice(1)
+  }
+  if (!queryString) {
+    url = origin + "/#" + rest
+  } else if (queryString.startsWith("?")) {
+    url = origin + "/#" + rest + queryString
+  } else {
+    url = origin + "/#" + The404Page.PAGE_PATH
+  }
+  console.log(url)
   window.location.replace(url)
 }
 

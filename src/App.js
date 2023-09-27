@@ -25,7 +25,6 @@ window.removeExternalParams = function () {
   let origin = window.location.origin
   let queryString = splitUrl[0].replace(origin, '')
   let url;
-  console.log([splitUrl, rest, origin, queryString])
   if (queryString.startsWith("/")) {
     queryString = queryString.slice(1)
   }
@@ -36,7 +35,6 @@ window.removeExternalParams = function () {
   } else {
     url = origin + "/#" + The404Page.PAGE_PATH
   }
-  console.log(url)
   window.location.replace(url)
 }
 

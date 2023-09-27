@@ -3,8 +3,6 @@ import { NavLink } from 'react-router-dom';
 import $ from "jquery"
 
 import "../style/NavigationBar.css"
-import WelcomePage from "../pages/Welcome";
-import EasyLink from "./EasyLink";
 
 export default class NavigationBar extends React.Component {
 

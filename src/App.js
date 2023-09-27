@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import $ from "jquery"
 
 import WelcomePage from "./pages/Welcome";
 import NavigationBar from "./components/NavigationBar"
@@ -10,7 +9,6 @@ import './style/App.css'
 import CityOfWaterPage from "./pages/CityOfWater";
 import CrimeeNo7Page from "./pages/CrimeeNo7";
 import EasyLink from "./components/EasyLink";
-import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
 import The404Page from "./pages/The404Page";
 
 const NAVIGATION_BAR_PAGES = [WelcomePage, CityOfWaterPage, CrimeeNo7Page]

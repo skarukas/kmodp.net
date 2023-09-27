@@ -1,8 +1,6 @@
 import React from "react"
-import $ from "jquery"
 
 import "../style/CrimeeNo7.css"
-import EasyLink from "../components/EasyLink"
 
 export default class CrimeeNo7Page extends React.Component {
   static PAGE_PATH = "/crimee-no-7"

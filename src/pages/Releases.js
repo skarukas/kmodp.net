@@ -1,33 +1,13 @@
 import React from "react"
-import $ from "jquery"
 import "../style/welcome.css"
 
 import EasyLink from "../components/EasyLink"
 import CityOfWaterPage from "./CityOfWater"
 import CrimeeNo7Page from "./CrimeeNo7"
 
-export default class WelcomePage extends React.Component {
-  static PAGE_PATH = "/"
-  static PAGE_NAME = "[home]"
-  componentDidMount() {
-    $('.welcome-content')
-      .fadeTo(2000, 1)
-    $('.arrow-image')
-      .delay(1000)
-      .fadeTo(1000, 0.3)
-    $('.welcome-links-container')
-      .delay(1000)
-      .fadeTo(1000, 1)
-    $('.welcome-links').on('mouseleave', () => selectImage(0))
-    $('.welcome-links').children().each((i, e) => {
-      $(e).on('mouseenter', () => selectImage(i + 1))
-    })
-
-    function selectImage(idx) {
-      $('.welcome-image').removeClass('image-selected')
-      $(`.welcome-image:nth-child(${idx + 1})`).addClass('image-selected')
-    }
-  }
+export default class ReleasesPage extends React.Component {
+  static PAGE_PATH = "/releases"
+  static PAGE_NAME = "[rls]"
   render() {
     document.title = "kmodp"
     return (
@@ -40,10 +20,16 @@ export default class WelcomePage extends React.Component {
               <EasyLink to={CityOfWaterPage.PAGE_PATH}>〣 city of water [EP, 2023]</EasyLink>
             </p>
             <p>
-              <EasyLink to="https://kmodp.bandcamp.com/album/2023-021-crim-e-no-7a">〣 crimee no. 7a [single, 2023]</EasyLink>
+              <EasyLink to="https://kmodp.bandcamp.com/album/2023-021-crim-e-no-7a">〣 crimée no. 7a [single, 2023]</EasyLink>
             </p>
             <p>
-              <EasyLink to={CrimeeNo7Page.PAGE_PATH}>〣 crimee no. 7 [album, 2023]</EasyLink>
+              <EasyLink to="https://kmodp.bandcamp.com/track/2023-012-electric-telegraphy-24-may-1844">〣 electric telegraphy [single, 2023]</EasyLink>
+            </p>
+            <p>
+              <EasyLink to="https://kmodp.bandcamp.com/track/2023-031-levitator-triple-rotation">〣 levitator ("triple rotation") [single, 2023]</EasyLink>
+            </p>
+            <p>
+              <EasyLink to={CrimeeNo7Page.PAGE_PATH}>〣 crimée no. 7 [album, coming 02/02/2024]</EasyLink>
             </p>
           </div>
         </div>
@@ -61,8 +47,7 @@ export default class WelcomePage extends React.Component {
         <hr />
         <hr />
         <img className="welcome-full-image" alt="crimee no. 7" src="img/crimee-7-letter.png" />
-      </div >
-
+      </div>
     )
   }
 }

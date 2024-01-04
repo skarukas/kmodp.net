@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter, Route, Switch } from 'react-router-dom';
 
-import WelcomePage from "./pages/Welcome";
+import ReleasesPage from "./pages/Releases";
 import NavigationBar from "./components/NavigationBar"
 import SocialContainer from "./components/SocialContainer"
 
@@ -10,8 +10,9 @@ import CityOfWaterPage from "./pages/CityOfWater";
 import CrimeeNo7Page from "./pages/CrimeeNo7";
 import EasyLink from "./components/EasyLink";
 import The404Page from "./pages/The404Page";
+import HomePage from "./pages/HomePage";
 
-const NAVIGATION_BAR_PAGES = [WelcomePage, CityOfWaterPage, CrimeeNo7Page]
+const NAVIGATION_BAR_PAGES = [HomePage, ReleasesPage, CityOfWaterPage, CrimeeNo7Page]
 
 const OTHER_ROUTABLE_PAGES = []
 

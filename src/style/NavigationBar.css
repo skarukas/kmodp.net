@@ -12,8 +12,8 @@
     padding: 0px;
     width: 100%;
     opacity: 1;
-    background: rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgb(0, 0, 0);
+    background: white;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
     text-transform: lowercase;
     font-weight: normal;
 }

@@ -7,7 +7,7 @@ import EasyLink from "../components/EasyLink"
 export default class HomePage extends React.Component {
   static PAGE_PATH = "/"
   static PAGE_NAME = "[home]"
-  static PERMA_PATH = "/crimee-no7-epk"
+  static PERMA_PATH = "/crimee-no7-announce"
 
   render() {
     return (

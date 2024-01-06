@@ -86,10 +86,10 @@ export function CrimeeNo7Info() {
         <i>Crimée No. 7</i>, the upcoming solo album from kmodp, is akin to a postcard from a distant past, blending intricate percussive patterns and expansive piano textures into artifacts meant to invoke a nostalgia for an out-of-reach era, an industrial past outside of the pervasive digital culture of our time.
       </p>
       <p>
-        Through reference to old media formats (wax cylinders, radio static, analog and digital glitches), each track becomes an artifact sent through time, labeled as they would be in an archival catalog (e.g., <i>2023:01.1</i>).
+        Through reference to old media formats (wax cylinders, radio static, and analog and digital glitches), each track becomes an artifact sent through time, labeled as it would be in an archival catalog (e.g., <i>2023:01.1</i>).
       </p>
       <p>
-        Carefully-selected layers of noise hint at a vintage sound and work to accomplish the ultimate goal of the album: to create a music that is digital yet breathing — <i>"a whirring, digital magnetic field of mechanical and organic sounds"</i> (Tome to the Weather Machine).
+        Carefully-selected layers of noise hint at a vintage sound and work to accomplish the ultimate goal of the album: to create a music that is digital yet breathing—<i>"a whirring, digital magnetic field of mechanical and organic sounds"</i> (Tome to the Weather Machine).
       </p>
       <SpotifyPreview title="crimee no. 7a" track_id="3gc1sGwflBEDJm0cwDaYB5" />
       <p>

@@ -70,6 +70,8 @@ class App extends React.Component {
   }
 
   render() {
+    let all_pages = [...NAVIGATION_BAR_PAGES, ...OTHER_ROUTABLE_PAGES]
+    let perma_pages = all_pages.filter(page => page.PERMA_PATH)
     return (
       <HashRouter basename='/'>
         <div id="background"></div>
@@ -78,7 +80,10 @@ class App extends React.Component {
         <div id="content">
           <Switch>
             {
-              [...NAVIGATION_BAR_PAGES, ...OTHER_ROUTABLE_PAGES].map(page => <Route exact path={page.PAGE_PATH} key={page.PAGE_NAME} component={page} />)
+              all_pages.map(page => <Route exact path={page.PAGE_PATH} key={page.PAGE_NAME} component={page} />)
+            }
+            {
+              perma_pages.map(page => <Route exact path={page.PERMA_PATH} key={page.PAGE_NAME + "_perma"} component={page} />)
             }
             {/* Catches all other routes (404). */}
             <Route component={The404Page}/>

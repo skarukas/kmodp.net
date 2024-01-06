@@ -86,24 +86,24 @@ export function CrimeeNo7Info() {
         <i>Crimée No. 7</i>, the upcoming solo album from kmodp, is akin to a postcard from a distant past, blending intricate percussive patterns and expansive piano textures into artifacts meant to invoke a nostalgia for an out-of-reach era, an industrial past outside of the pervasive digital culture of our time.
       </p>
       <p>
-        Through reference to old media formats (wax cylinders, radio static, analog and digital glitches), each track becomes an artifact sent through time, labeled as they would be in an archival catalog (e.g. <i>2023:01.1</i>).
+        Through reference to old media formats (wax cylinders, radio static, analog and digital glitches), each track becomes an artifact sent through time, labeled as they would be in an archival catalog (e.g., <i>2023:01.1</i>).
       </p>
       <p>
-        Carefully-selected layers of noise hint at a vintage sound and work to accomplish the ultimate goal of the album: to create a music that is digital, yet breathing — <i>"a whirring, digital magnetic field of mechanical and organic sounds"</i> (Tome to the Weather Machine).
+        Carefully-selected layers of noise hint at a vintage sound and work to accomplish the ultimate goal of the album: to create a music that is digital yet breathing — <i>"a whirring, digital magnetic field of mechanical and organic sounds"</i> (Tome to the Weather Machine).
       </p>
       <SpotifyPreview title="crimee no. 7a" track_id="3gc1sGwflBEDJm0cwDaYB5" />
       <p>
-        Marked by formant-shifted voices and piano lines spliced and looped into rich textures are the three tracks at the heart of the album, <i>Crimée No. 7a</i> through <i>Crimée No. 7c</i>. The most dynamic track, <i>Crimée No. 7b</i>, takes as its backbone an enigmatic percussive pattern, which pulls and pushes wildly in tempo — from 60 to 180 beats per minute — as the music shifts between meloncholy piano loops and pointillistic breakbeats. Serving as the source material for the ghostly pads and percussive content of the track is a field recording from riding on the metro line 7 to the composer's temporary lodging near the Crimée station in Paris.
+        Marked by formant-shifted voices and piano lines that have been spliced and looped into rich textures are the three tracks at the heart of the album, <i>Crimée No. 7a</i> through <i>Crimée No. 7c</i>. The most dynamic track, <i>Crimée No. 7b</i>, takes as its backbone an enigmatic percussive pattern, which pulls and pushes wildly in tempo—from 60 to 180 beats per minute—as the music shifts between melancholy piano loops and pointillistic breakbeats. Serving as the source material for the ghostly pads and percussive content of the track is a field recording from riding on metro line 7 to the composer's temporary lodging near the Crimée station in Paris.
       </p>
       <p>
         The album serves as a love letter to city life, from the industrial corners of Seattle, where decrepit tracks cut through forgotten railways, to the nostalgia for the metro stations and graffiti of Paris in the summer of 2018, where the composer first discovered his love for electronic music when studying at the IRCAM in Centre Pompidou.
       </p>
       <SpotifyPreview title="electric-telegraphy" track_id="0nGzmJybDZFyGNZV8H31oc" />
       <p>
-        Though written over the course of a year, the bulk of the composition of this album took place in the beginning and end of 2023. Consistent throughout the album is a bittersweet nostalgic mood characteristic of winter, with the warm production of the ambient tracks creating a <i>"a comfy electrostatic pillow on which weary heads can relax."</i> (The Slow Music Movement).
+        Though written over the course of a year, the bulk of the composition of this album took place at the beginning and end of 2023. Consistent throughout the album is a bittersweet nostalgic mood characteristic of winter, with the warm production of the ambient tracks creating <i>"a comfy electrostatic pillow on which weary heads can relax."</i> (The Slow Music Movement).
       </p>
       <p>
-        <i>Crimée No. 7</i> releases on streaming services on 02/02/2024.
+        <i>Crimée No. 7</i> releases on streaming services on February 2, 2024.
       </p>
     </div>
   )
@@ -118,13 +118,13 @@ export function KmodpBio() {
         kmodp is the electronic music project of Seattle-based composer <EasyLink to="https://skarukas.com">Stephen Karukas</EasyLink>.
       </p>
       <p>
-        Karukas previously performed as a percussionist and composed for contemporary music ensembles before pivoting towards a technical career. kmodp is a rechanneling of musical efforts: a departure from acoustic music into a new electronic medium, and an attempt to bring the dynamism of natural sound to a digital world.
+        Karukas previously performed as a percussionist and composed for contemporary music ensembles before pivoting towards a technical career. kmodp is a rechanneling of musical efforts: a departure from acoustic music into a new electronic medium and an attempt to bring the dynamism of natural sound to a digital world.
       </p>
       <p>
-        kmodp's first release, <i>City of Water</i> (April 2023), was a collaborative EP with <EasyLink to="https://lucjardie.bandcamp.com/">Luc Jardie</EasyLink> and <EasyLink to="https://cellartone.bandcamp.com/">Cellartone</EasyLink>, produced by an experimental compositional process taking the form of a musical game of telephone — each artist manipulates and remixes a track without limits, often beyond recognition, before handing it off to the next producer, who does the same.
+        kmodp's first release, <i>City of Water</i> (April 2023), was a collaborative EP with <EasyLink to="https://lucjardie.bandcamp.com/">Luc Jardie</EasyLink> and <EasyLink to="https://cellartone.bandcamp.com/">Cellartone</EasyLink>, produced by an experimental compositional process taking the form of a musical game of telephone—each artist manipulates and remixes a track without limits, often beyond recognition, before handing it off to the next producer, who does the same.
       </p>
       <p>
-        kmodp's first album <i>Crimée No. 7</i> releases in Februrary 2024. Three singles from the album were released throughout the course of 2023.
+        kmodp's first album, <i>Crimée No. 7</i>, will be released in February 2024. Three singles from the album were released throughout the course of 2023.
       </p>
       <p>Find kmodp on <EasyLink to="https://open.spotify.com/artist/4lmC5Ri5LYsFDoUP2sJgel">Spotify</EasyLink>, <EasyLink to="https://www.instagram.com/kmodp.music">Instagram</EasyLink>, <EasyLink to="https://kmodp.bandcamp.com/">Bandcamp</EasyLink>, or <EasyLink to="https://soundcloud.com/kmodp">SoundCloud</EasyLink>.
       </p>

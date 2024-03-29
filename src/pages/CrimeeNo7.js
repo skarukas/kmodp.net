@@ -13,6 +13,7 @@ export default class CrimeeNo7Page extends React.Component {
         <img alt="background" className="background-img" src="img/artifact-patent-diagram.png" />
         <div className="crimee-content">
           <div className="crimee-text-container">
+          <iframe style={{"borderRadius":"12px"}} src="https://open.spotify.com/embed/album/7Jwz9fVitkJ25I8S0aTrft?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             <CrimeeNo7Info />
           </div>
           <div className="bottom-padding"></div>
@@ -82,6 +83,9 @@ export function CrimeeNo7Info() {
     <div className="crimee-no-7-info">
       <img alt="hand-cranked" className="float-image" src="img/hand-cranked-cylinder-cover.jpg" width="250" />
       <h2>crimée no. 7</h2>
+      <p>
+        Find <i>Crimée No. 7</i> on <EasyLink to="https://kmodp.bandcamp.com/album/crim-e-no-7">Bandcamp</EasyLink> or <EasyLink to="https://open.spotify.com/album/7Jwz9fVitkJ25I8S0aTrft?si=krhSAA7nSPCL74JRFpMOfg">Spotify</EasyLink>.
+      </p>
       <p>
         <i>Crimée No. 7</i>, the most recent solo album from kmodp, is akin to a postcard from a distant past, blending intricate percussive patterns and expansive piano textures into artifacts meant to invoke a nostalgia for an out-of-reach era, an industrial past outside of the pervasive digital culture of our time.
       </p>

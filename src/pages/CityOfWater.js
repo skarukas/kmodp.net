@@ -16,15 +16,9 @@ export default class CityOfWaterPage extends React.Component {
     return (
       <div id="city-of-water-page">
         <div className="city-of-water-container">
-          <img id="city-of-water-cover" alt="city of water" src="img/city-of-water-cover.jpg" />
-          <div className="city-of-water-text">
-            <div><i>City of Water [ Cellartone / Luc Jardie / kmodp ]</i></div>
-            <div>[ 2023 ]</div>
-            <div>〣 Swollen River Swallow Me 〢</div>
-            <div>〣 Leech 〢 <EasyLink to="https://www.youtube.com/watch?v=U4b3P75FPM8">[ ► video ]</EasyLink></div>
-            <div>〣 Submerged 〢</div>
-          </div>
+          <iframe style={{"borderRadius":"12px"}} src="https://open.spotify.com/embed/album/3T61aJ7RFb0qyGzGeHC63W?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
+        <EasyLink to="https://www.youtube.com/watch?v=U4b3P75FPM8">[ ► "Leech" music video ]</EasyLink>
         <img className="welcome-full-image" alt="leech" src="img/leech-water.jpg" />
       </div>
     )

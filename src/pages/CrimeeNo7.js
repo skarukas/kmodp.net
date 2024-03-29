@@ -83,7 +83,7 @@ export function CrimeeNo7Info() {
       <img alt="hand-cranked" className="float-image" src="img/hand-cranked-cylinder-cover.jpg" width="250" />
       <h2>crimée no. 7</h2>
       <p>
-        <i>Crimée No. 7</i>, the upcoming solo album from kmodp, is akin to a postcard from a distant past, blending intricate percussive patterns and expansive piano textures into artifacts meant to invoke a nostalgia for an out-of-reach era, an industrial past outside of the pervasive digital culture of our time.
+        <i>Crimée No. 7</i>, the most recent solo album from kmodp, is akin to a postcard from a distant past, blending intricate percussive patterns and expansive piano textures into artifacts meant to invoke a nostalgia for an out-of-reach era, an industrial past outside of the pervasive digital culture of our time.
       </p>
       <p>
         Through reference to old media formats (wax cylinders, radio static, and analog and digital glitches), each track becomes an artifact sent through time, labeled as it would be in an archival catalog (e.g., <i>2023:01.1</i>).
@@ -101,9 +101,6 @@ export function CrimeeNo7Info() {
       <SpotifyPreview title="electric-telegraphy" track_id="0nGzmJybDZFyGNZV8H31oc" />
       <p>
         Though written over the course of a year, the bulk of the composition of this album took place at the beginning and end of 2023. Consistent throughout the album is a bittersweet nostalgic mood characteristic of winter, with the warm production of the ambient tracks creating <i>"a comfy electrostatic pillow on which weary heads can relax."</i> (The Slow Music Movement).
-      </p>
-      <p>
-        <i>Crimée No. 7</i> releases on streaming services on February 2, 2024.
       </p>
     </div>
   )
@@ -124,7 +121,7 @@ export function KmodpBio() {
         kmodp's first release, <i>City of Water</i> (April 2023), was a collaborative EP with <EasyLink to="https://lucjardie.bandcamp.com/">Luc Jardie</EasyLink> and <EasyLink to="https://cellartone.bandcamp.com/">Cellartone</EasyLink>, produced by an experimental compositional process taking the form of a musical game of telephone—each artist manipulates and remixes a track without limits, often beyond recognition, before handing it off to the next producer, who does the same.
       </p>
       <p>
-        kmodp's first album, <i>Crimée No. 7</i>, will be released in February 2024. Three singles from the album were released throughout the course of 2023.
+        kmodp's first album, <i>Crimée No. 7</i>, was released in February 2024.
       </p>
       <p>Find kmodp on <EasyLink to="https://open.spotify.com/artist/4lmC5Ri5LYsFDoUP2sJgel">Spotify</EasyLink>, <EasyLink to="https://www.instagram.com/kmodp.music">Instagram</EasyLink>, <EasyLink to="https://kmodp.bandcamp.com/">Bandcamp</EasyLink>, or <EasyLink to="https://soundcloud.com/kmodp">SoundCloud</EasyLink>.
       </p>

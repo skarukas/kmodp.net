@@ -29,7 +29,7 @@ export default class ReleasesPage extends React.Component {
               <EasyLink to="https://kmodp.bandcamp.com/track/2023-031-levitator-triple-rotation">〣 levitator ("triple rotation") [single, 2023]</EasyLink>
             </p>
             <p>
-              <EasyLink to={CrimeeNo7Page.PAGE_PATH}>〣 crimée no. 7 [album, coming 02/02/2024]</EasyLink>
+              <EasyLink to={CrimeeNo7Page.PAGE_PATH}>〣 crimée no. 7 [album, 2024]</EasyLink>
             </p>
           </div>
         </div>

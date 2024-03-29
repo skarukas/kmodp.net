@@ -17,7 +17,6 @@ export default class HomePage extends React.Component {
           <Image alt="crimee-cover" src="img/crimee-7-cover.jpg" width={500} />
           <div className="crimee-title">
             <h2>〣 crimée no. 7 〢</h2>
-            <span>{"< coming 02/02/2024 >"}</span>
           </div>
           <div className="crimee-quote">
             <p>

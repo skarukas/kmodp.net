@@ -17,19 +17,22 @@ export default class ReleasesPage extends React.Component {
             <p style={{ textAlign: "center", paddingTop: "15vh" }}>kmodp is a new experimental electronic music project drawing inspiration from microsound, glitch, and ambient music.</p>
             <hr width="200px"></hr>
             <p>
-              <EasyLink to={CityOfWaterPage.PAGE_PATH}>〣 city of water [EP, 2023]</EasyLink>
+              <EasyLink to="https://kmodp.bandcamp.com/track/inconnu">〣 [inconnu] [collaboration with Køemner, 2025]</EasyLink>
             </p>
             <p>
-              <EasyLink to="https://kmodp.bandcamp.com/album/2023-021-crim-e-no-7a">〣 crimée no. 7a [single, 2023]</EasyLink>
-            </p>
-            <p>
-              <EasyLink to="https://kmodp.bandcamp.com/track/2023-012-electric-telegraphy-24-may-1844">〣 electric telegraphy [single, 2023]</EasyLink>
+              <EasyLink to={CrimeeNo7Page.PAGE_PATH}>〣 crimée no. 7 [album, 2024]</EasyLink>
             </p>
             <p>
               <EasyLink to="https://kmodp.bandcamp.com/track/2023-031-levitator-triple-rotation">〣 levitator ("triple rotation") [single, 2023]</EasyLink>
             </p>
             <p>
-              <EasyLink to={CrimeeNo7Page.PAGE_PATH}>〣 crimée no. 7 [album, 2024]</EasyLink>
+              <EasyLink to="https://kmodp.bandcamp.com/track/2023-012-electric-telegraphy-24-may-1844">〣 electric telegraphy [single, 2023]</EasyLink>
+            </p>
+            <p>
+              <EasyLink to="https://kmodp.bandcamp.com/album/2023-021-crim-e-no-7a">〣 crimée no. 7a [single, 2023]</EasyLink>
+            </p>
+            <p>
+              <EasyLink to={CityOfWaterPage.PAGE_PATH}>〣 city of water [EP, 2023]</EasyLink>
             </p>
           </div>
         </div>
